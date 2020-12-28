@@ -46,8 +46,17 @@ const IndexPage = () => (
             <br />I typed and re-typed that program. Loving it. Never beeing the same again.
           </p>
           <p>
-            * Currently Seeking Peers (DevOps, Developers, Agile PMs, Traditional PMs).
+            Currently Seeking Peers and Mentors for DevOps, Agile PM, Traditional PM, and almost anything else.
           </p>
+          <div style={{color: 'yellow'}}>
+            <h2 style={{color: 'yellow'}}>
+            Site is a Work in Progress
+            </h2>
+
+            <br />
+            Aiming for launch by Jan. 1, 2021.
+            <br />Started Dec. 25, 2020.g
+          </div>
         </header>
         {/* `style*` numbers are out of order so visual colours are laid out best. */}
         <ul className="icons major">

@@ -26,10 +26,22 @@ module.exports = {
       url: 'https://twitter.com/greg403',
     },
     {
+      style: 'brands',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/diabefit',
+    },
+    {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
       url: 'mailto:greg@stevens.pro',
+    },
+    {
+      style: 'solid',
+      icon: 'fa-phone',
+      name: 'Phone',
+      url: 'tel:+1 403.710.8455',
     },
   ],
 };
