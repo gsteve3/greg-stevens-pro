@@ -194,12 +194,12 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2></h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Thanks for stopping by.
           </p>
         </header>
+        {/*
         <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
@@ -212,6 +212,7 @@ const IndexPage = () => (
             </a>
           </li>
         </ul>
+         */}
       </div>
     </section>
   </Layout>
