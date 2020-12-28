@@ -1,4 +1,6 @@
 import React from 'react';
+import { hot } from 'react-hot-loader'
+
 
 import Layout from '../components/Layout';
 
@@ -18,7 +20,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                About Me
               </a>
             </Scroll>
           </li>
@@ -35,9 +37,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Trying to build online applications right since 1999
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
@@ -46,6 +46,7 @@ const IndexPage = () => (
             fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
             ullamcorper.
           </p>
+          Currently Seeking Peers (DevOps, Developers, Agile PMs, Traditional PMs).
         </header>
         <ul className="icons major">
           <li>
@@ -203,4 +204,7 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+// export default IndexPage;
+// https://github.com/gatsbyjs/gatsby/issues/8237
+export default hot(module)(IndexPage);
+
