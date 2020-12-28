@@ -1,4 +1,6 @@
 import React from 'react';
+import { hot } from 'react-hot-loader'
+
 
 import Layout from '../components/Layout';
 
@@ -18,7 +20,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                About Me
               </a>
             </Scroll>
           </li>
@@ -35,32 +37,48 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Trying to build right since 1999
+            {/* <!-- Producing Websites since 1999 --> */}
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            It all started when I was around eight years old, circa 1994.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            I got to buy a super-old computer from a garage sale.
+            <br />That computer only had storage for its core OS.
+            <br />It came with a book that showed how to type code to make simple (BASIC?) programs.
+            <br />For example, one would make your name flash across the <strike>monitor</strike> TV screen.
+            <br />I typed and re-typed that program. Loving it. Never beeing the same again.
+          </p>
+          <p>
+            * Currently Seeking Peers (DevOps, Developers, Agile PMs, Traditional PMs).
           </p>
         </header>
+        {/* `style*` numbers are out of order so visual colours are laid out best. */}
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+            <span className="icon fa-heart major style5">
+              <span className="label">Love</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+            <span className="icon solid fa-code major style2">
+              <span className="label">Develop</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="icon solid fa-dumbbell major style4">
+              <span className="label">Lift</span>
+            </span>
+          </li>
+          <li>
+            {/* style5 was bright red */}
+            <span className="icon solid fa-hammer major style6">
+              <span className="label">Use a Hammer</span>
+            </span>
+          </li>
+          <li>
+            <span className="icon solid fa-wrench major style3">
+              <span className="label">Pull a Wrench</span>
             </span>
           </li>
         </ul>
