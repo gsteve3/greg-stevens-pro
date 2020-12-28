@@ -1,9 +1,5 @@
 import React from 'react';
-import { hot } from 'react-hot-loader'
-
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/pic01.jpg';
