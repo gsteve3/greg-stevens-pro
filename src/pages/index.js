@@ -55,7 +55,7 @@ const IndexPage = () => (
 
             <br />
             Aiming for launch by Jan. 1, 2021.
-            <br />Started Dec. 25, 2020.g
+            <br />Started Dec. 25, 2020.
           </div>
         </header>
         {/* `style*` numbers are out of order so visual colours are laid out best. */}
