@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "http://greg.stevens.pro"
+    to = "https://www.stevens.pro"
+    status = 303
+    force = true
