@@ -88,12 +88,12 @@ const IndexPage = () => (
         <div className="inner">
           <h3>Updated Nearly Daily</h3>
           <p>
-            FARRRR MORE UP-TO-DATE han here
+            FARRRR MORE UP-TO-DATE han here</em>
             <br />
             Go there, you want to, just type
             <br />
             {CAREER_LINK}
-            <br /> in your browser, Desktop or Mobile.
+            <br /> in your browser, Desktop or Mobile.</em>
           </p>
         </div>
       </section>
