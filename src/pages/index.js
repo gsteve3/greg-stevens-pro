@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
@@ -14,19 +13,12 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                About Me
-              </a>
-            </Scroll>
+            <a href="/career" className="button primary">
+              Career Site (Launched May 2022)
+            </a>
           </li>
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
-      </Scroll>
     </section>
 
     <section id="one" className="wrapper style1 special">
