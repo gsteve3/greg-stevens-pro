@@ -12,3 +12,11 @@
     to = "https://www.career.stevens.pro"
     status = 303
     force = true
+
+[[redirects]]
+    # Added 2022-05-25
+    from = "https://main--greg-stevens-pro.netlify.app/"
+    to = "https://gregs.stevens.pro/"
+    status = 303
+    force = true
+
