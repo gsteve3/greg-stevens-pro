@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Greg Stevens - Full-stack Web Developer, DevOps, Agile PM', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Greg Stevens',
+  manifestShortName: 'gsteve3', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
