@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import config from '../../config';
 
 // import { CareerLink } from '../components/CareerLink';
-const CAREER_LINK_TEXT = <code>https://career.stevens.pro/</code>
+const CAREER_LINK_TEXT = <code>https://<b>career.stevens.pro</b>/</code>
 const CAREER_LINK = <Link
                       to={config.CAREER_URL}
                       target="_blank"
@@ -31,63 +31,66 @@ const IndexPage = () => (
         </p>
       </header>
 
-{/* ---- end header --- */}
+    {/* ---- end header --- */}
 
 
-      <section className="wrapper style5" style={{float: "left"}}>
-        <div className="inner">
-          <ul class="">
-            <li>
-              <span role="img" aria-label="rocket-launch">
-                😱
-              </span>
-              Typical Resume could not hold all of what I do.
-            </li>
-            <li>
-              😕 Or I just couldn't figure it out,
-            </li>
-            <li>
-              🔧 Or... I hate using sub-standard tools when I know there is a
-              better way!
-            </li>
-            <li>
-              <span role="img" aria-label="">
-                📈
-              </span>
-              Skills, Tools, etc. List Grows So Fast!
-            </li>
-            <li>
-              <span role="img" aria-label="rocket-launch">
-                💡
-              </span>
-              So...let's make a &nbsp;
-              <Link to="{careerWebsiteUrl}">Career Website</Link>
-            </li>
-          </ul>
-        </div>
-      </section>
-
+      {/* <section className="wrapper style5" style={{float: "left", padding: "8rem", width: "50%", height: "100%" }}> */}
       <section className="wrapper style5">
+
         <div className="inner">
-            <h3>Updated Nearly Daily</h3>
-            <p>
-              FARRRR MORE UP-TO-DATE han here
-              <br />
-              Go there, you want to, just type  in your browser, Desktop or Mobile.
-              <br />
-              {/* , marginLeft: "auto", marginRight: "auto" */}
-              <div style={{padding: "3rem", textAlign: "center"}}>
-                {CAREER_LINK}
-              </div>
-            </p>
+          <div style={{float: "left"}}>
+            <h3>Why?</h3>
+            <ul class="">
+              <li>
+                <span role="img" aria-label="rocket-launch">
+                  😱
+                </span>
+                Typical Resume could not hold all of what I do.
+              </li>
+              <li>
+                😕 Or I just couldn't figure it out,
+              </li>
+              <li>
+                🔧 Or... I hate using sub-standard tools when I know <br /> there is a
+                better way!
+              </li>
+              <li>
+                <span role="img" aria-label="">
+                  📈
+                </span>
+                Skills, Tools, etc. List Grows So Fast!
+              </li>
+              <li>
+                <span role="img" aria-label="rocket-launch">
+                  💡
+                </span>
+                So...let's make a &nbsp;
+                <Link to="{careerWebsiteUrl}">Career Website</Link>
+              </li>
+            </ul>
           </div>
+
+
+          <div style={{ width: "45%",paddingLeft: "5rem", float: "left" }}>
+              <h3>Updated Nearly Daily</h3>
+              <p>
+                FARRRR MORE UP-TO-DATE han here
+                <br />
+                Go there, you want to, just type  in your browser, Desktop or Mobile.
+                <br />
+                <div style={{ marginTop: "3rem" }}>
+                  {CAREER_LINK}
+                </div>
+              </p>
+            </div>
+
+        </div>
+        <br clear="all" />
+
       </section>
-      <br clear="all" />
-
-
-
 
     </article>
+
   </Layout>
 );
 
