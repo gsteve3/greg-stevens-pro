@@ -2,11 +2,10 @@
 
 import React from 'react';
 import { Link } from 'gatsby';
-
 import Layout from '../components/Layout';
-import { CareerLink } from '../components/CareerLink';
 import config from '../../config';
 
+// import { CareerLink } from '../components/CareerLink';
 const CAREER_LINK_TEXT = <code>https://career.stevens.pro/</code>
 const CAREER_LINK = <Link
                       to={config.CAREER_URL}
