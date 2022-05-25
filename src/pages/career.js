@@ -35,11 +35,8 @@ const IndexPage = () => (
 {/* ---- end header --- */}
 
 
-      <section className="wrapper style5">
-        <div style={{padding: "3rem", textAlign: "center"}}>
-          {CAREER_LINK}
-        </div>
-        <div className="inner" style={{float: "left"}}>
+      <section className="wrapper style5" style={{float: "left"}}>
+        <div className="inner">
           <ul class="">
             <li>
               <span role="img" aria-label="rocket-launch">
@@ -69,24 +66,24 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-
-
-        <div className="iner">
-          <h3>Updated Nearly Daily</h3>
-          <p>
-            FARRRR MORE UP-TO-DATE han here
-            <br />
-            Go there, you want to, just type
-            <br />
-            {/* , marginLeft: "auto", marginRight: "auto" */}
-            <div style={{padding: "3rem", textAlign: "center"}}>
-              {CAREER_LINK}
-            </div>
-            <br /> in your browser, Desktop or Mobile.
-          </p>
-        </div>
-        <br clear="all" />
       </section>
+
+      <section className="wrapper style5">
+        <div className="inner">
+            <h3>Updated Nearly Daily</h3>
+            <p>
+              FARRRR MORE UP-TO-DATE han here
+              <br />
+              Go there, you want to, just type  in your browser, Desktop or Mobile.
+              <br />
+              {/* , marginLeft: "auto", marginRight: "auto" */}
+              <div style={{padding: "3rem", textAlign: "center"}}>
+                {CAREER_LINK}
+              </div>
+            </p>
+          </div>
+      </section>
+      <br clear="all" />
 
 
 
