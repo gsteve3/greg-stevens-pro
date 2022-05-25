@@ -1,5 +1,14 @@
+# https://docs.netlify.com/routing/redirects/
+
 [[redirects]]
     from = "http://greg.stevens.pro"
     to = "https://www.stevens.pro"
+    status = 303
+    force = true
+
+[[redirects]]
+    # Added 2022-05-25
+    from = "http://www.career.stevens.pro"
+    to = "https://www.career.stevens.pro"
     status = 303
     force = true
