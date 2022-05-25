@@ -27,7 +27,9 @@
     "typescript": "^4.1.3"
   },
   "scripts": {
-    "develop": "gatsby develop",
+    "__develop_original": "gatsby develop",
+    "__comment": "https://github.com/gatsbyjs/gatsby/issues/16107",
+    "develop": "until gatsby develop; do sleep 1; done",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",

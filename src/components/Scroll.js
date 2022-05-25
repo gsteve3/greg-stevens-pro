@@ -1,4 +1,4 @@
-import smoothscroll from 'smoothscroll-polyfill';
+  import smoothscroll from 'smoothscroll-polyfill';
 import React from 'react';
 import PropTypes from 'prop-types';
 

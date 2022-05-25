@@ -203,7 +203,7 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2></h2>
+          <h2>Thank You</h2>
           <p>
             Thanks for stopping by.
           </p>

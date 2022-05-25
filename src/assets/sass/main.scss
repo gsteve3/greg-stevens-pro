@@ -18,6 +18,24 @@ section#three {
 	display: none;
 }
 
+// 2022-05-25
+// header ul {
+// 	width: auto;
+// 	margin: 1rem;
+// 	padding: 1rem;
+// 	list-style: none;
+// }
+// header ul li {
+// 	margin-left: 1rem;
+// 	padding-left: 1rem;
+// 	list-style: circle;
+// }
+
+header ul li::marker {
+	// #ThankYou https://stackoverflow.com/questions/3012716/css-how-to-remove-pseudo-elements-after-before
+	content: none;
+}
+
 // Breakpoints.
 
 	@include breakpoints((

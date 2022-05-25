@@ -10,6 +10,10 @@ module.exports = {
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Greg Stevens',
   subHeading: 'A Pragmatic Full Stack Web Developer, DevOps Enthusiast, Agile PM, and Decent Leader',
+
+  // Added CAREER_URL 2022-05-25 for `CareerLink.js`
+  CAREER_URL: "https://career.stevens.pro/?utm_campaign=career&utm_medium=website&utm_source=www.stevens.pro/career&utm_term=test-term",
+
   // Agile | Pragmatic | Full Stack Web Dev | DevOps | Agile PM
   // social
   socialLinks: [
