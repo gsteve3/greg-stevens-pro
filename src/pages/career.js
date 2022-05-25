@@ -17,15 +17,12 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>
-          <em>Career Website - Launched May 2022 🚀</em>
-        </h2>
-        <h2>
-          <br />
-          {CAREER_LINK}
-        </h2>
+        <h2>Career Website</h2>
+        <p>Launched May 2022 🚀</p>
 
-        <p style={{marginTop: "2rem"}}>
+        <h2>{CAREER_LINK}</h2>
+
+        <p style={{marginTop: "3rem"}}>
           <em>
             Powered by &nbsp;
             <a href="https://obsidian.md/publish" target="_blank">
