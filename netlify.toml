@@ -4,8 +4,8 @@
 
 # Added 2022-05-25 - Changed canonical domain to www.stevens.pro for easy sharing.
 [[redirects]]
-    from = "https://greg.stevens.pro"
-    to = "https://www.stevens.pro"
+    from = "https://greg.stevens.pro/*"
+    to = "https://www.stevens.pro/:splat"
     status = 303
     force = true
 
