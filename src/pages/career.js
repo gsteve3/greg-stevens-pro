@@ -38,7 +38,7 @@ const IndexPage = () => (
       <section className="wrapper style5">
 
         <div className="inner">
-          <div style={{ float: "left", paddingRight: "2rem" }}>
+          <div>
             <h3>Why?</h3>
             <ul class="">
               <li>
@@ -70,8 +70,7 @@ const IndexPage = () => (
             </ul>
           </div>
 
-
-          <div style={{ width: "45%", float: "left" }}>
+          <div>
               <h3>Updated Nearly Daily</h3>
               <p>
                 FARRRR MORE UP-TO-DATE than this site (
