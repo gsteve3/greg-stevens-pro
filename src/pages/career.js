@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import config from '../../config';
 
-import githubSocialImage from '../assets/images/greg-stevens-pro-github-socialify.png';
+import githubSocialImage from '../assets/images/greg-stevens-career-socialify.png';
 
 
 // import { CareerLink } from '../components/CareerLink';
