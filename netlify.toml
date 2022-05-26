@@ -1,22 +1,30 @@
 # https://docs.netlify.com/routing/redirects/
 
+
+
+# Added 2022-05-25 - Changed canonical domain to www.stevens.pro for easy sharing.
 [[redirects]]
-    from = "http://greg.stevens.pro"
-    to = "https://www.stevens.pro"
+    from = "https://greg.stevens.pro/"
+    to = "https://www.stevens.pro/"
     status = 303
     force = true
 
-[[redirects]]
-    # Added 2022-05-25
-    from = "http://www.career.stevens.pro"
-    to = "https://www.career.stevens.pro"
-    status = 303
-    force = true
+# [[redirects]]
+#     from = "http://greg.stevens.pro"
+#     to = "https://www.stevens.pro"
+#     status = 303
+#     force = true
 
 [[redirects]]
     # Added 2022-05-25
+    from = "http://www.career.stevens.pro/"
+    to = "https://career.stevens.pro/"
+    status = 303
+    force = true
+
+# Added 2022-05-25
+[[redirects]]
     from = "https://main--greg-stevens-pro.netlify.app/"
-    to = "https://gregs.stevens.pro/"
+    to = "https://www.stevens.pro/"
     status = 303
     force = true
-
