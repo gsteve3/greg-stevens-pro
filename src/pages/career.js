@@ -71,7 +71,7 @@ const IndexPage = () => (
           </div>
 
 
-          <div style={{ width: "45%",paddingLeft: "5rem", float: "left" }}>
+          <div style={{ width: "45%", float: "left" }}>
               <h3>Updated Nearly Daily</h3>
               <p>
                 FARRRR MORE UP-TO-DATE than this site (
