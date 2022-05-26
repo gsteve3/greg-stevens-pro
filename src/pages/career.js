@@ -38,7 +38,7 @@ const IndexPage = () => (
       <section className="wrapper style5">
 
         <div className="inner">
-          <div style={{float: "left"}}>
+          <div style={{ float: "left", paddingRight: "2rem" }}>
             <h3>Why?</h3>
             <ul class="">
               <li>
