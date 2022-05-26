@@ -5,6 +5,9 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import config from '../../config';
 
+import githubSocialImage from '../assets/images/greg-stevens-pro-github-socialify.png';
+
+
 // import { CareerLink } from '../components/CareerLink';
 const CAREER_LINK_TEXT = <code>https://<b>career.stevens.pro</b>/</code>
 const CAREER_LINK = <Link
@@ -76,8 +79,6 @@ const IndexPage = () => (
                 FARRRR MORE UP-TO-DATE than this site (
                 <a href="https://www.stevens.pro"><em>www.stevens.pro</em></a>
                 ).
-
-                <br />
                 <br />
                 Go there, you want to, just type  in your browser, Desktop or Mobile.
                 <br />
@@ -89,7 +90,6 @@ const IndexPage = () => (
                 <h4>What Changed? Check Git!</h4>
 
                 Review Career Site Updates as
-                <br />
                 <a href="https://github.com/gsteve3/greg-stevens-career/commits/main">
                   <b><code>git commits</code></b>
                 </a>
@@ -101,10 +101,17 @@ const IndexPage = () => (
                 <br />
                 <br />
                 <a href="https://github.com/gsteve3/greg-stevens-career/">
-                  GitHub.com/<b>gsteve3/greg-stevens-career/</b>
+                  <code>GitHub.com/<b>gsteve3/greg-stevens-career/</b></code>
+                  <br />
+                  <img
+                    src={githubSocialImage}
+                    alt="GitHub Social Banner"
+                    width="450"
+                  />
                 </a>
-
               </p>
+
+
             </div>
 
         </div>

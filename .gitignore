@@ -10,3 +10,6 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+# src/assets/greg-stevens-pro.png:Zone.Identifier
+# OneDrive Zone.Identifier
+*:Zone.Identifier
