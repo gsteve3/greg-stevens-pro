@@ -6,7 +6,7 @@
 [[redirects]]
     from = "https://greg.stevens.pro/*"
     to = "https://www.stevens.pro/:splat"
-    status = 303
+    status = 301
     force = true
 
 # [[redirects]]
@@ -19,12 +19,12 @@
     # Added 2022-05-25
     from = "http://www.career.stevens.pro/*"
     to = "https://career.stevens.pro/:splat"
-    status = 303
+    status = 301
     force = true
 
 # Added 2022-05-25
 [[redirects]]
     from = "https://main--greg-stevens-pro.netlify.app/*"
     to = "https://www.stevens.pro/:splat"
-    status = 303
+    status = 301
     force = true
