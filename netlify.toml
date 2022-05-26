@@ -17,14 +17,14 @@
 
 [[redirects]]
     # Added 2022-05-25
-    from = "http://www.career.stevens.pro"
-    to = "https://career.stevens.pro"
+    from = "http://www.career.stevens.pro/*"
+    to = "https://career.stevens.pro/:splat"
     status = 303
     force = true
 
 # Added 2022-05-25
 [[redirects]]
-    from = "https://main--greg-stevens-pro.netlify.app"
-    to = "https://www.stevens.pro"
+    from = "https://main--greg-stevens-pro.netlify.app/*"
+    to = "https://www.stevens.pro/:splat"
     status = 303
     force = true
