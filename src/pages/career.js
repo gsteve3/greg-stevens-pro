@@ -51,8 +51,9 @@ const IndexPage = () => (
                 😕 Or I just couldn't figure it out,
               </li>
               <li>
-                🔧 Or... I hate using sub-standard tools when I know <br /> there is a
-                better way!
+                🔧 Or, maybe I hate using sub-standard tools
+                <br />
+                <em style={{marginLeft: "2rem"}}>... especially when I know there is <a href="https://www.obsidian.md/">a better way</a>!</em>
               </li>
               <li>
                 <span role="img" aria-label="">
@@ -62,10 +63,9 @@ const IndexPage = () => (
               </li>
               <li>
                 <span role="img" aria-label="rocket-launch">
-                  💡
+                  💣
                 </span>
-                So...let's make a &nbsp;
-                <Link to="{careerWebsiteUrl}">Career Website</Link>
+                <b>So...let's blowup the resume into a Career Website!</b>
               </li>
             </ul>
           </div>
@@ -74,13 +74,37 @@ const IndexPage = () => (
           <div style={{ width: "45%",paddingLeft: "5rem", float: "left" }}>
               <h3>Updated Nearly Daily</h3>
               <p>
-                FARRRR MORE UP-TO-DATE han here
+                FARRRR MORE UP-TO-DATE than this site (
+                <a href="https://www.stevens.pro"><em>www.stevens.pro</em></a>
+                ).
+
+                <br />
                 <br />
                 Go there, you want to, just type  in your browser, Desktop or Mobile.
                 <br />
                 <div style={{ marginTop: "3rem" }}>
                   {CAREER_LINK}
                 </div>
+              </p>
+              <p>
+                <h4>What Changed? Check Git!</h4>
+
+                Review Career Site Updates as
+                <br />
+                <a href="https://github.com/gsteve3/greg-stevens-career/commits/main">
+                  <b><code>git commits</code></b>
+                </a>
+                on the &nbsp;
+                <a href="https://github.com/gsteve3/greg-stevens-career/">
+                  GitHub public repo
+                </a>.
+
+                <br />
+                <br />
+                <a href="https://github.com/gsteve3/greg-stevens-career/">
+                  GitHub.com/<b>gsteve3/greg-stevens-career/</b>
+                </a>
+
               </p>
             </div>
 
