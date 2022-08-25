@@ -1,4 +1,5 @@
-.vscode
+# .vscode
+# !.vscode/settings.json
 
 # Project dependencies
 .cache
@@ -13,3 +14,6 @@ yarn.lock
 # src/assets/greg-stevens-pro.png:Zone.Identifier
 # OneDrive Zone.Identifier
 *:Zone.Identifier
+
+# Local Files, backups, scratchpad, etc.
+.local

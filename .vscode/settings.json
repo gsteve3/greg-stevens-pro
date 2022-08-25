@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "content",
-        "redirect"
+        "redirect",
+        "repo"
     ]
 }
