@@ -52,9 +52,7 @@ const IndexPage = () => (
             Site is a Work in Progress
             </h2>
 
-            <br />
-            Aiming for launch by Jan. 1, 2021.
-            <br />Started Dec. 25, 2020.
+            <p>Started Dec. 25, 2020.</p>
           </div>
         </header>
         {/* `style*` numbers are out of order so visual colours are laid out best. */}
