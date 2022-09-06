@@ -20,8 +20,8 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Link to="/career" className="button primary">
-              Career Site (Launched May 2022)
+            <Link to="/resume" className="button primary">
+              Resume (🚀 Aug. 2022)
             </Link>
           </li>
         </ul>
