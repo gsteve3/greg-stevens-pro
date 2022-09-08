@@ -27,4 +27,26 @@
     from = "https://main--greg-stevens-pro.netlify.app/*"
     to = "https://www.stevens.pro/:splat"
     status = 301
+    force = true    # COMMENT: ensure that we always redirect
+
+# 2022-09-08
+[[redirects]]
+    from = "/yt"
+    to = "https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q"
+    status = 301
     force = true
+
+# 2022-09-08
+[[redirects]]
+    from = "/YouTube"
+    to = "/yt"
+    status = 301
+    force = true
+
+# 2022-09-08
+[[redirects]]
+    from = "/youtube"
+    to = "/yt"
+    status = 301
+    force = true
+
