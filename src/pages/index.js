@@ -25,6 +25,8 @@ const IndexPage = () => (
             </Link>
           </li>
         </ul>
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/1nIGWQII0p4?start=55" title="TECH MUSIC VIDEO (TMV) - Reactive Native Day 1 - DEV Env Setup - 3 hours cut to 10 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
 
