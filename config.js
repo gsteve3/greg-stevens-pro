@@ -4,6 +4,7 @@ const resumeSite = 'https://resume.stevens.pro'; // without Trailing Slash
 
 module.exports = {
   siteTitle: 'Greg Stevens - Full-stack Web Developer, DevOps, Agile PM', // <title>
+  description: 'Greg Stevens - Full-stack Web Developer, DevOps, Agile PM', // <title>
   manifestName: 'Greg Stevens',
   manifestShortName: 'GregSweats', // max 12 characters
   manifestStartUrl: '/',
@@ -20,6 +21,9 @@ module.exports = {
 
   RESUME_URL: resumeSite + '/?utm_campaign=career&utm_medium=website&utm_source=www.stevens.pro/resume&utm_term=2022-08-25',
   RESUME_PDF_URL: resumeSite + '/pdf?utm_campaign=career&utm_medium=website&utm_source=www.stevens.pro/resume&utm_term=2022-08-25',
+  RESUME_PDF_URL_SHORT: '/resume/Greg Stevens Resume Short.pdf',
+  // RESUME_PDF_URL_SHORT: '/resume/test.txt',
+  // RESUME_PDF_URL_SHORT: resumeSite + '/pdf-2pager?utm_campaign=career&utm_medium=website&utm_source=www.stevens.pro/resume&utm_term=2022-08-25',
 
   RESUME_REPO_URL: resumeRepoURL,
   RESUME_JSON_URL: 'https://gist.githubusercontent.com/GregSweats/829870bd98a9844c3744a04699532552/raw/819e60fe23a14dcf2348688050394f8f602f98c0/resume.json',
@@ -50,7 +54,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:greg@stevens.pro',
+      url: 'mailto:hiregreg@stevens.pro',
     },
     {
       style: 'solid',

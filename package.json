@@ -29,7 +29,8 @@
   "scripts": {
     "__develop_original": "gatsby develop",
     "__comment": "https://github.com/gatsbyjs/gatsby/issues/16107",
-    "develop": "until gatsby develop; do sleep 1; done",
+    "develop_until": "until gatsby develop; do sleep 1; done",
+    "develop": "bash script/run.sh",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",

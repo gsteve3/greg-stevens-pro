@@ -21,7 +21,12 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
             <Link to="/resume" className="button primary">
-              Resume (🚀 Aug. 2022)
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="https://www.dalyle.ca/" className="button secondary">
+              Dalyle DevOps Inc. (My Biz)
             </Link>
           </li>
         </ul>
