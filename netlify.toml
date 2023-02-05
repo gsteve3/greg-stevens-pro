@@ -50,3 +50,11 @@
     status = 301
     force = true
 
+
+# 2023-02-05
+[[redirects]]
+    from = "https://www.dalyle.ca/*"
+    to = "https://www.stevens.pro/?utm_source=dalyle.ca"
+    status = 301
+    force = true
+
